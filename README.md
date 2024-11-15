@@ -6,7 +6,8 @@ Utilising Azure Data Factory and Databricks to transform and analyse on-premise 
 The goal of this project is to use a cloud provider and distributed computing to design the data found in on-premises databases in order to produce insights and reports. There is a structured data in an on-premise website database. It's possible that there is much data for the on-premises computing capability to handle the necessary transformation. Additionally, because infrastructure setup takes time, money, and planning, it may not always be possible. Additionally, the infrastructure might soon become obsolete or superfluous. Thus, moving to cloud is the easiest way to achieve the desired results without much overhead.
 
 #### <ins>Procedural Diagram</ins>
-![image](https://github.com/DataCounsel/Azure-Data-Engineering/assets/71335870/4193068d-e8f4-4396-9893-ac4283373ab2)
+<img width="547" alt="image" src="https://github.com/user-attachments/assets/07ac0deb-75ef-41a4-869a-6fb57e2a1da8">
+
 
 The AdventureWorksLT2022 database, which is accessible to the public, serves as the on-premises database in this instance. This is used since it's lightweight, helps keep expenses under control, and emphasises the process above processing power. In a real-world scenario, the dataset would be substantially larger, but the architecture employed in this project could still manage it effectively. This is the high-level architecture diagram.
 
