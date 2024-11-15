@@ -16,7 +16,8 @@ The AdventureWorksLT2022 database, which is accessible to the public, serves as 
 •	SQL Server: A Self-Hosted Integration Runtime (SHIR) connects the AdventureWorksLT2022 database, which is housed on an on-premises SQL Server, to Azure Data Factory (ADF), allowing for safe data transfer and conversion into Azure Data Lake Storage. The SQL Server instance is managed using SQL Server Management Studio (SSMS), which also allows you to create users and configure permissions for safe access. ADF authenticates and connects to the database using the SQL Server credentials, which are safely kept in Azure Key Vault. In addition to preserving effective transformations within ADF prior to loading data into the Azure Data Lake, this guarantees safe and smooth data transport.
 
 
-![image](https://github.com/DataCounsel/Azure-Data-Engineering/assets/71335870/1f0db421-328d-43d5-a5ef-42fdb02b0f05)
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/96c3f8cf-e5ce-4e98-91a9-bf06714258ad">
+
 
 ![image](https://github.com/DataCounsel/Azure-Data-Engineering/assets/71335870/aa45e31b-ee0c-40d9-b1da-fd5ca543de88)
 
